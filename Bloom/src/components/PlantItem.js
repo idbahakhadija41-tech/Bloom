@@ -10,8 +10,8 @@ function PlantItem({ name, cover, category, isBestSale, water, light }) {
       </div>
       <h3 className="bloom-plant-name">{name}</h3>
       <p className="bloom-plant-category">Catégorie : {category}</p>
-      <CareScale careType="water" scaleValue={water} />
-      <CareScale careType="light" scaleValue={light} />
+      <CareScale careType="water" scaleValue={water}  />
+<CareScale careType="light" scaleValue={light}  />
     </li>
   )
 }
